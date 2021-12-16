@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--ikonica-->
+  <link rel="shortcut icon" href="CSS/Screenshot_1.png">
+    <!--google-fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <!--font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!--css-->
+    <link rel="stylesheet" href="CSS\style1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bong's restaurant</title>
+</head>
+<body>
+  <!--Nav-bar-->
+  <div class="side_bar" id="mySidebar">
+    
+    <p onclick="closeNav()">&#x2716;</p>	
+    <div class="img_menu"><img src="css/Screenshot_1.png" height="50" width="50"></div>
+    
+      <a href="menu.html" style="border-top:1px solid white">Jelovnik</a>
+      <a href="kontakt.html">Kontakt</a>
+      <a href="gallery.html">Galerija</a>
+    
+  </div>
+<!--Logo,button-->
+  <header class="logo">
+    <div class="btn" onclick="openNav()">
+      <i class="fas fa-bars"></i>
+    </div>
+  </header>
+  
+<!--Slider start-->
+  <div class="slider">
+    <div class="slides">
+      
+      
+      <input type="radio" name="radio" id="radio1">   
+      <input type="radio" name="radio" id="radio2"> 
+      <input type="radio" name="radio" id="radio3"> 
+      <input type="radio" name="radio" id="radio4"> 
+
+      
+       
+      <div class="slide first">
+        <img src="CSS/slide_image1.jpg" alt="">
+      </div>
+
+      <div class="slide">
+        <img src="CSS/slide_image2.jpg" alt="">
+      </div>
+
+      <div class="slide">
+        <img src="CSS/slide_image3.jpg" alt="">
+      </div>
+
+      <div class="slide">
+        <img src="CSS/slide_image4.jpg" alt="">
+      </div>
+      
+
+      <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
+      </div>
+      
+    </div>
+    
+
+    <div class="navigation-manual">
+      <label for="radio1" class="manual-btn"></label>
+      <label for="radio2" class="manual-btn"></label>
+      <label for="radio3" class="manual-btn"></label>
+      <label for="radio4" class="manual-btn"></label>
+    </div>
+
+    
+  </div>
+
+
+
+  <!--section1-->
+  <section id="text_1">
+    <p class="text1" >
+      Dobro došli!
+    </p>
+    <p>Restoran ima dugu tradiciju spremanja izvrsnih kineskih jela,
+      trudimo se da svake godine budemo sve bolji i bolji,kako biste imali potpuno poverenje u nas.</p>
+  </section>
+  <script src="script1.js"></script>
+</body>
+</html>
